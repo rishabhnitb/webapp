@@ -1,0 +1,8 @@
+persist\NotePersist.class
+persist\UserPersist.class
+pojos\PaperNote.class
+provider\JacksonProvider.class
+pojos\UserData.class
+services\RequestHandler.class
+services\ApplicationConfig.class
+mongo\DBInitialise.class

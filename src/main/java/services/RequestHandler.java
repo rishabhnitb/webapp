@@ -20,6 +20,7 @@ public class RequestHandler {
 	DBInitialise mongo = new DBInitialise();
 	NotePersist notePersist = new NotePersist();
 	
+	
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String checkJersey() {

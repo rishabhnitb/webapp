@@ -24,6 +24,7 @@ public class RequestHandler {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String checkJersey() {
+		
 		return "warking fine!";
 	}
 	

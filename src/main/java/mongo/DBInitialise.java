@@ -70,11 +70,12 @@ public class DBInitialise {
 	public MongoCollection<Document> getCollection(){
 		 
 
-		MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
+		MongoClient mongoClient = MongoClients.create("mongodb+srv://demo:rishabh1991@democluster-cbuby."
+				+ "mongodb.net/test?retryWrites=true&w=majority");
 		
 		
 	     // Accessing the database 
-	     MongoDatabase database = mongoClient.getDatabase("myDb");
+	     MongoDatabase database = mongoClient.getDatabase("demo");
 	     MongoCollection<Document> collection = database.getCollection("paperNotes");
 	     
 	     return collection;

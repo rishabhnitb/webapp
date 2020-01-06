@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar target/webapp/WEB-INF/lib/webapp-runner-9.0.27.0.jar --port $PORT target/webapp.war

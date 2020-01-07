@@ -1,1 +1,1 @@
-web: sh target/webapp.war
+web: sh target/webapp
